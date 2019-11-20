@@ -35,9 +35,38 @@ a:hover {
 }
 
 
+/* Flex Container */
 .slider-nav ul {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex;
+}
+
+/* Flex Item*/
+.slider-nav li {
+  flex: 2;
+  text-align: center;
+  display: flex; /* nested flex*/
+}
+
+.slider-nav .arrow {
+  flex:1;
+}
+
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Flex Item */
+.slider-nav span {
+  display: block;
+  width: 100%;
+}
+
+.arrow a {
+  font-size: 30px;
 }
 
