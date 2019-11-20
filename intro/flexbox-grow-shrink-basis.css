@@ -1,0 +1,32 @@
+/*
+*/
+
+.container {
+  display: flex;
+}
+
+.box {
+
+  /* flex: 1; */
+
+  /* take space when there are more than needed*/
+  /* flex-grow: 1; */
+
+  /* take space when there are not enough than needed*/
+  /* flex-shrink: 1; */
+}
+
+.box1 {
+  /*flex-basis: 400px;
+  flex-grow: 2; /* extra room -> twice as much extra space as siblings */
+  /*flex-shrink: 10; /* when not enough room -> how much should this element shrink more then my siblings*/
+
+  /* short cut*/
+  flex: 10 2 400px;
+}
+
+.box2 {
+  flex: 1 1 400px;
+  /* flex-basis: 400px; */
+  /* flex-grow: 1; /* extra room -> take the whole space */
+}
