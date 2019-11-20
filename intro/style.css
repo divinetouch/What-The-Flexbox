@@ -27,9 +27,32 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
+/* flex direction */
+
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1; /* evenly distributed */
+  order: 0; /* set default for all */
+}
+
+.box3{
+  order:1 /* default 0 -> 1 is the biggest -> last*/
+}
+
+.box7 {
+  order: 2
+}
+
+.box4 {
+  order: -1 /* now this is the smallest -> first in the order */
+}
+
 
 /* We start writing out flexbox here. The above is just page setup */
-.container {
+/* .container {
   display:flex;
   border:10px solid goldenrod;
   height:100vh; /* height 100 % */
@@ -49,6 +72,5 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /*flex wrap*/
 
 .box {
-  width: calc(33.333333% - 20px);
-  margin: 10px;
-}
+  width: 33.333333%;
+} */
