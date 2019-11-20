@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+/*
+  flex: scale up or down when there is additional space
+  1 -> take the whole main axis and expand each element to take the whole maix axis
+*/
+
+.box {
+  flex: 1
+}
+
+.box2 {
+  flex: 2 /* double the space */
+}
+
+.box3 {
+  flex: 3
+}
