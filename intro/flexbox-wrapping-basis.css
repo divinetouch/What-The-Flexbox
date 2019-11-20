@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 10px solid goldenrod;
+  height: 100vh;  /* height must be specified to get the column direction working*/
+}
+
+.box {
+  /*
+    less space -> flex shrink kicks in
+  */
+  flex-basis: 250px;
+
+  /*
+    wrap kicks in -> grow to take the whole space along the main axis
+  */
+  flex-grow:1;
+}
+
+.box3 {
+  flex-grow: 10
+}
