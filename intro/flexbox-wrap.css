@@ -1,0 +1,22 @@
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+  height:100vh; /* height 100 % */
+
+  /* flex direction */
+
+  flex-direction: row; /* default direction, side by side */
+  /* flex-direction: column; /* stack on top of each other */
+  /* flex-direction: row-reverse; /* row right to left */
+  /* flex-direction: column-reverse; /* column bottom to top */
+
+  /*flex wrap*/
+  flex-wrap: wrap /*work with the width of the box and the height of the screen*/
+  /* wrap-reverse -> bottom to top */
+}
+
+/*flex wrap*/
+
+.box {
+  width: 33.333333%;
+}
