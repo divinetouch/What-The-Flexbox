@@ -1,0 +1,16 @@
+/* justify-content works on the main axis */
+
+.box {
+  font-size: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* algin to the righ */
+  /* center -> center the elements
+     space between -> start at flex start, end at flex end and equal space between
+     space around -> equal space around each element
+  */
+
+  flex-direction: column; /* break the justify-content -> must give a height */
+  min-height: 100vh;
+}
